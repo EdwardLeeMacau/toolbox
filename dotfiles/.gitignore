@@ -1,0 +1,14 @@
+# Python
+*.pyc
+__pycache__
+
+# C and Cpp Intermediates
+*.[ado]
+*.so
+*.so.*
+
+# Mac
+.DS_Store
+
+# VSCode
+.vscode
