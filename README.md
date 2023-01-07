@@ -14,6 +14,13 @@ Frequently used commands, installation script and dotfiles.
 
 - Chrome
 - VSCode
+  - clangd
+  - Disable Ligatures
+  - GitLens
+  - Python
+  - Remote - SSH
+  - SpellCheck
+  - WSL
 - Windows Subsystem Linux 2
 - MobaXTerm
 - Docker
@@ -21,9 +28,9 @@ Frequently used commands, installation script and dotfiles.
 
 ## Notes and Books Managements
 
-- Zotero
-- Obsidian
 - Calibre
+- Obsidian
+- Zotero
 
 ## VPN
 
@@ -33,3 +40,7 @@ Frequently used commands, installation script and dotfiles.
 ## Communication
 
 - Discord
+
+## Fonts
+
+- [FiraCode](https://github.com/tonsky/FiraCode)
