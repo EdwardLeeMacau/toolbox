@@ -5,7 +5,6 @@
 	required = true
 
 [core]
-	excludesfile = /Users/Edward/.gitignore
 	autocrlf = false
 	editor = vim
 
