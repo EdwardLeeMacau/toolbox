@@ -29,6 +29,7 @@ Frequently used commands, installation script and dotfiles.
 ## Notes and Books Managements
 
 - Calibre
+- LaTex
 - Obsidian
 - Zotero
 
