@@ -20,3 +20,7 @@ apt-get install cmake -y
 #
 # 3. plugin: zsh-syntax-highlighting (MacOS)
 # brew install zsh-syntax-highlighting
+#
+# 4. theme: PowerLevel10K
+# brew install powerlevel10k
+# echo "source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
