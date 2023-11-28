@@ -21,21 +21,27 @@ Frequently used commands, installation script and dotfiles.
   - Remote - SSH
   - SpellCheck
   - WSL
-- Windows Subsystem Linux 2
-- MobaXTerm
 - Docker
-- CUDA
+
+**Windows**
+
+- Windows Subsystem Linux 2
+- Nvidia driver
+
+**Mac**
+
+- Homebrew and homebrew
 
 ## Notes and Books Managements
 
 - Calibre
-- LaTex
+- ~~LaTex~~
 - Obsidian
-- Zotero
+- EndNote (MacOS or Windows) / Zotero
 
 ## VPN
 
-- FortiClient 6.4
+- ~~FortiClient 6.4~~
 - Pulse Secure
 
 ## Communication
