@@ -111,6 +111,30 @@ def parse_args() -> argparse.Namespace:
                         help='End page number to remove (0-indexed)')
     return parser.parse_args()
 
+def extract_text_from_pdf(
+        doc: fitz.Document
+    ) -> str:
+    """
+    Extract text from a PDF file
+
+    Arguments
+    ---------
+    doc : fitz.Document
+        The input PDF document
+
+    Returns
+    -------
+    str
+        The extracted text from the PDF
+    """
+    full_text = ""
+    for page_num in range(len(doc)):
+        page = doc.load_page(page_num)
+        page_text = page.get_text()
+        full_text += f"Page {page_num + 1}:\n{page_text}\n\n"
+
+    return full_text
+
 def main(): # pylint: disable=missing-function-docstring
     args = parse_args()
 
