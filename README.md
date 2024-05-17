@@ -7,7 +7,7 @@ Frequently used commands, installation script and dotfiles.
 ## Document
 
 - WinRAR
-- MS Word
+- MS Office
 - PDF Viewer
 
 ## Productivity
@@ -22,11 +22,15 @@ Frequently used commands, installation script and dotfiles.
   - SpellCheck
   - WSL
 - Docker
+- Iguana
+- [FiraCode](https://github.com/tonsky/FiraCode)
+
 
 **Windows**
 
 - Windows Subsystem Linux 2
 - Nvidia driver
+- PowerToy
 
 **Mac**
 
@@ -48,6 +52,3 @@ Frequently used commands, installation script and dotfiles.
 
 - Discord
 
-## Fonts
-
-- [FiraCode](https://github.com/tonsky/FiraCode)
