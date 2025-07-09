@@ -10,6 +10,7 @@ apt-get install -y make
 apt-get install -y cmake
 apt-get install -y net-tools
 apt-get install -y zsh
+chsh -s $(which zsh)
 
 # Optional packages
 # apt-get install -y nvtop
