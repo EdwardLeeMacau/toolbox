@@ -1,13 +1,15 @@
 #!/bin/bash
 
-apt-get install vim -y
-apt-get install git -y
-apt-get install tmux -y
-apt-get install tree -y
-apt-get install gcc g++ -y
-apt-get install make -y
-apt-get install cmake -y
-apt-get install net-tools
+# Remember to give it root permission.
+apt-get install -y vim
+apt-get install -y git
+apt-get install -y tmux
+apt-get install -y tree
+apt-get install -y gcc g++
+apt-get install -y make
+apt-get install -y cmake
+apt-get install -y net-tools
+apt-get install -y zsh
 
 # Follow the setup guide in PacketCloud to configure `apt`
 # before `sudo apt-get install git-lfs`
