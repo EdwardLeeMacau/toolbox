@@ -24,6 +24,7 @@ Frequently used commands, installation script and dotfiles.
 - Docker
 - Iguana
 - [FiraCode](https://github.com/tonsky/FiraCode)
+- [Anaconda](https://www.anaconda.com/)
 
 
 **Windows**
