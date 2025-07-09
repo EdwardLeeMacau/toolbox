@@ -11,19 +11,24 @@ apt-get install -y cmake
 apt-get install -y net-tools
 apt-get install -y zsh
 
+# Optional packages
+# apt-get install -y nvtop
+
 # Follow the setup guide in PacketCloud to configure `apt`
 # before `sudo apt-get install git-lfs`
 
-# oh-my-zsh installer, include several core plugins
-# 1. installer
-# sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-#
-# 2. plugin: zsh-autosuggestions
-# git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-#
-# 3. plugin: zsh-syntax-highlighting (MacOS)
-# brew install zsh-syntax-highlighting
-#
-# 4. theme: PowerLevel10K
+# zsh plugins
+# 1. oh-my-zsh installer
+cd ~/Downloads; sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"; popd
+
+# 2. plugins (autosuggestions, autocomplete, syntax-highlighting)
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autocomplete
+
+# 3. theme: PowerLevel10K
 # brew install powerlevel10k
 # echo "source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
+#
+# Manually (Change ZSH_THEME="powerlevel10k/powerlevel10k" in .zshrc)
+git clone https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
